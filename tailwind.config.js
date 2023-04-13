@@ -4,7 +4,11 @@ module.exports = {
         extend: {
             fontFamily: {
                 'Libre': ['"Libre Baskerville"', 'serif'],
-                'Montserrat': ['"Montserrat"', 'sans-serif']
+                'Montserrat': ['"Montserrat"', 'sans-serif'],
+                'Oswald': ['"Oswald', 'sans-serif']
+            },
+            colors: {
+                'custom-blue': '#6BBFC5'
             }
         },
     },
