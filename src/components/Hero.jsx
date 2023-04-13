@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="relative bg-[url(https://img.freepik.com/fotos-gratis/linda-dentista-trabalhando-em-uma-clinica-odontologica_1157-28570.jpg?w=826&t=st=1681334113~exp=1681334713~hmac=414628853dc095f631db2bfaf236728dc857c463ce0df4cc94364683eb1ca0ab)] bg-cover bg-center bg-no-repeat">
+    <section className="border border-b-2 border-[#6BBFC5] relative bg-[url(https://img.freepik.com/fotos-gratis/linda-dentista-trabalhando-em-uma-clinica-odontologica_1157-28570.jpg?w=826&t=st=1681334113~exp=1681334713~hmac=414628853dc095f631db2bfaf236728dc857c463ce0df4cc94364683eb1ca0ab)] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
 
       <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8  font-Montserrat">
