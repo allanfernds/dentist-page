@@ -14,7 +14,7 @@ import beleza from "../assets/images/serviços/beleza.png";
 function Services() {
   return (
     <>
-      <h4 className="text-custom-blue my-14 text-3xl text text-center font-Oswald font-semibold">
+      <h4 className="my-20 text-2xl text-center  font-extrabold font-Oswald leading-8 text-custom-blue dark:text-white sm:text-3xl sm:leading-9">
         ALGUNS DOS NOSSOS SERVIÇOS
       </h4>
       <div className="flex-wrap items-center justify-center gap-8 text-center sm:flex">

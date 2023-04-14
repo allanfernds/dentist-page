@@ -6,6 +6,7 @@ import Treatments from "../components/Treatments";
 import CTAs from "../components/CTAs";
 import Services from "../components/Services";
 import Covenants from "../components/Covenants";
+import TipsSection from "../components/TipsSection";
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <Treatments />
       <Services />
       <Covenants />
+      <TipsSection />
     </>
   );
 }
