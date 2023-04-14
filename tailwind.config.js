@@ -9,6 +9,9 @@ module.exports = {
             },
             colors: {
                 'custom-blue': '#6BBFC5'
+            },
+            backgroundImage: {
+                'hero': "url('/src/assets/images/clinica.jpg')",
             }
         },
     },

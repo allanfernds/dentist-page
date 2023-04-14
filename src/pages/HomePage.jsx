@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
-import Services from "../components/Services";
+import Treatments from "../components/Treatments";
 import CTAs from "../components/CTAs";
+import Services from "../components/Services";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Hero />
       <CTAs />
       <AboutUs />
+      <Treatments />
       <Services />
     </>
   );
