@@ -3,8 +3,8 @@ import ProfileCard from "./ProfileCard";
 
 function AboutUs() {
   return (
-    <div class="mx-auto grid max-w-6xl grid-cols-12 gap-4 p-1 mt-10">
-      <div class="col-span-12 px-8 py-12 sm:col-span-7">
+    <div className="mx-auto grid max-w-6xl grid-cols-12 gap-4 p-1 mt-10">
+      <div className="col-span-12 px-8 py-12 sm:col-span-7">
         <h2 className="md:text-4xl mb-4 font-bold font-Oswald text-2xl text-[#6BBFC5]">
           SOBRE NÓS
         </h2>
@@ -24,7 +24,7 @@ function AboutUs() {
           os pacientes.
         </p>
       </div>
-      <div class="col-span-12 sm:col-span-4">
+      <div className="col-span-12 sm:col-span-4">
         <ProfileCard />
       </div>
     </div>
