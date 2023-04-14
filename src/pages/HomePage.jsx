@@ -7,6 +7,7 @@ import CTAs from "../components/CTAs";
 import Services from "../components/Services";
 import Covenants from "../components/Covenants";
 import TipsSection from "../components/TipsSection";
+import Testimonials from "../components/Testimonials";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       <Services />
       <Covenants />
       <TipsSection />
+      <Testimonials />
     </>
   );
 }

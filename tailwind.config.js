@@ -8,7 +8,8 @@ module.exports = {
                 'Oswald': ['"Oswald', 'sans-serif']
             },
             colors: {
-                'custom-blue': '#6BBFC5'
+                'custom-blue': '#6BBFC5',
+                'custom-brown': '#CD8C63 '
             },
             backgroundImage: {
                 'hero': "url('/src/assets/images/clinica.jpg')",
