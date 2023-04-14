@@ -38,12 +38,6 @@ function Services() {
         />
 
         <ServiceCard
-          title="Clínico geral"
-          icon={clinicoGeral}
-          description="Exame completo da boca para prevenção e tratamento de doenças."
-        />
-
-        <ServiceCard
           title="Clareamento"
           icon={clareamento}
           description="Técnica para clarear os dentes, devolvendo o seu brilho natural."

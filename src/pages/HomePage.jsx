@@ -5,6 +5,7 @@ import AboutUs from "../components/AboutUs";
 import Treatments from "../components/Treatments";
 import CTAs from "../components/CTAs";
 import Services from "../components/Services";
+import Covenants from "../components/Covenants";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <AboutUs />
       <Treatments />
       <Services />
+      <Covenants />
     </>
   );
 }
