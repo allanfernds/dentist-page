@@ -17,7 +17,6 @@ function TipsSection() {
             sorriso!
             <br />
             <br />
-            Confere essas 03 dicas e manda pra aquele amigo que ama sorrir 🥰
           </p>
           <div className="flex-col">
             <Dissclosure
@@ -38,7 +37,7 @@ function TipsSection() {
         <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
           <img
             src={draRefaela}
-            className="rounded-3xl  max-w-xs m-auto md:max-w-sm"
+            className="rounded-3xl  max-w-sm m-auto md:max-w-xl"
           />
         </div>
       </div>

@@ -9,6 +9,7 @@ import Covenants from "../components/Covenants";
 import TipsSection from "../components/TipsSection";
 import Testimonials from "../components/Testimonials";
 import FindUsSection from "../components/FindUsSection";
+import ContactSection from "../components/ContactSection";
 
 function HomePage() {
   return (
@@ -23,6 +24,7 @@ function HomePage() {
       <TipsSection />
       <Testimonials />
       <FindUsSection />
+      <ContactSection />
     </>
   );
 }
