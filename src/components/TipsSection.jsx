@@ -4,15 +4,15 @@ import Dissclosure from "./Dissclosure";
 
 function TipsSection() {
   return (
-    <div className="relative z-20 flex items-center overflow-hidden bg-white dark:bg-gray-800">
+    <div className="relative z-20 flex items-center overflow-hidden bg-white ">
       <div className="container relative flex px-6 py-16 mx-auto">
         <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
-          <span className="w-20 h-2 mb-12 bg-custom-blue rounded-md dark:bg-white"></span>
-          <h1 className="flex flex-col text-5xl font-black leading-none text-custom-blue uppercase font-bebas-neue sm:text-6xl dark:text-white">
+          <span className="w-20 h-2 mb-12 bg-custom-blue rounded-md "></span>
+          <h1 className="flex flex-col text-5xl font-black leading-none text-custom-blue uppercase font-bebas-neue sm:text-6xl ">
             O Sorriso
             <span className="text-5xl sm:text-5xl">Abre Portas</span>
           </h1>
-          <p className="text-sm font-Montserrat text-gray-700 sm:text-base dark:text-white">
+          <p className="text-sm font-Montserrat text-gray-700 sm:text-base ">
             O sorriso abre portas e atrai oportunidades, tudo começa com um
             sorriso!
             <br />

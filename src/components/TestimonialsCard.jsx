@@ -2,7 +2,7 @@ import React from "react";
 
 function TestimonialsCard({ name, description, service }) {
   return (
-    <div className="w-full p-4 mb-6 bg-white rounded-lg shadow dark:bg-gray-800 sm:inline-block">
+    <div className="w-full p-4 mb-6 bg-white rounded-lg shadow  sm:inline-block">
       <div className="flex items-start text-left">
         <div className="flex-shrink-0">
           <div className="relative inline-block">
@@ -17,12 +17,8 @@ function TestimonialsCard({ name, description, service }) {
         </div>
         <div className="ml-6">
           <p className="flex items-baseline">
-            <span className="font-bold text-gray-600 dark:text-gray-200">
-              {name}
-            </span>
-            <span className="ml-2 text-sm text-gray-500 dark:text-gray-300">
-              {service}
-            </span>
+            <span className="font-bold text-gray-600 ">{name}</span>
+            <span className="ml-2 text-sm text-gray-500 ">{service}</span>
           </p>
           <div className="flex items-center mt-1">
             <svg
@@ -77,7 +73,7 @@ function TestimonialsCard({ name, description, service }) {
             </svg>
           </div>
           <div className="mt-3">
-            <p className="max-w-xs mt-1 dark:text-white">{description}</p>
+            <p className="max-w-xs mt-1 ">{description}</p>
           </div>
         </div>
       </div>

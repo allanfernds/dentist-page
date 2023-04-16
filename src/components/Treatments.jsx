@@ -7,14 +7,14 @@ import image04 from "../assets/images/tratamento/image04.png";
 
 function Treatments() {
   return (
-    <div className="relative max-w-screen-xl p-8 px-8 mx-auto bg-white dark:bg-gray-800 sm:px-8 lg:px-16 py-8 lg:mt-2">
+    <div className="relative max-w-screen-xl p-8 px-8 mx-auto bg-white sm:px-8 lg:px-16 py-8 lg:mt-2">
       <div className="relative">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-2 lg:items-center">
           <div className="ml-auto lg:col-start-2 lg:max-w-2xl">
-            <h4 className="mt-2 text-2xl font-extrabold font-Oswald leading-8 text-custom-blue dark:text-white sm:text-3xl sm:leading-9">
+            <h4 className="mt-2 text-2xl font-extrabold font-Oswald leading-8 text-custom-blue sm:text-3xl sm:leading-9">
               SEU SORRISO É A NOSSA INSPIRAÇÃO
             </h4>
-            <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
+            <p className="mt-4 text-lg leading-6 text-gray-500 ">
               Problemas dentários podem afetar sua qualidade de vida, mas
               estamos aqui para ajudar. Nossa clínica oferece tratamentos para
               uma ampla variedade de problemas, incluindo:

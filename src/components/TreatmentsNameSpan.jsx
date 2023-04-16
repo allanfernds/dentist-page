@@ -3,7 +3,7 @@ import React from "react";
 function TreatmentsNameSpan({ name }) {
   return (
     <div class="flex">
-      <span class="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
+      <span class="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full ">
         <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
           <path
             fill-rule="evenodd"
@@ -12,7 +12,7 @@ function TreatmentsNameSpan({ name }) {
           ></path>
         </svg>
       </span>
-      <span class="ml-4 text-base font-medium leading-6 text-gray-500 dark:text-gray-200">
+      <span class="ml-4 text-base font-medium leading-6 text-gray-500 ">
         {name}
       </span>
     </div>
