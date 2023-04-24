@@ -20,7 +20,7 @@ function Testimonials() {
         />
         <TestimonialsCard
           name="Eurisane"
-          description="Além de muito educada gostei muito do tratamento,sem falar da pontualidade sempre bem humorada,amei o tratamento"
+          description="Além de muito educada gostei muito do tratamento,sem falar da pontualidade sempre bem humorada, amei o tratamento"
           service="Extração de siso"
         />
       </div>
