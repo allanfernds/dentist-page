@@ -2,7 +2,7 @@ import React from "react";
 
 function CTAs() {
   return (
-    <section className="bg-custom-blue px-8">
+    <section id="about" className="bg-custom-blue px-8">
       <div className="container grid grid-cols-2 gap-8 py-8 mx-auto text-center md:grid-cols-4">
         <div>
           <h5 className="text-5xl font-bold text-white">

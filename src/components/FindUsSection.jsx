@@ -4,6 +4,7 @@ import Mapa from "./Mapa";
 function FindUsSection() {
   return (
     <section className="border-b-4 border-custom-blue px-8">
+      <br id="contact" />
       <div className="container grid grid-cols-1 gap-8 py-8 mx-auto text-center md:grid-cols-2">
         <div>
           <h1 className="flex flex-col text-3xl font-black leading-none text-custom-blue uppercase font-bebas-neue sm:text-6xl text-left">
@@ -20,9 +21,9 @@ function FindUsSection() {
             44056-232
             <br />
             <br />
-            🕖8h às 18h SEG/SEX
+            8h às 18h SEG/SEX
             <br />
-            🕚8h às 12h SÁBADO
+            8h às 12h SÁBADO
           </p>
         </div>
         <div>

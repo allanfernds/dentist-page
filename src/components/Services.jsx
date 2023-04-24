@@ -14,6 +14,7 @@ import beleza from "../assets/images/serviços/beleza.png";
 function Services() {
   return (
     <>
+      <br id="services" />
       <h4 className="my-20 text-2xl text-center  font-extrabold font-Oswald leading-8 text-custom-blue sm:text-3xl sm:leading-9">
         ALGUNS DOS NOSSOS SERVIÇOS
       </h4>
