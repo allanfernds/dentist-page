@@ -10,6 +10,7 @@ import TipsSection from "../components/TipsSection";
 import Testimonials from "../components/Testimonials";
 import FindUsSection from "../components/FindUsSection";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (
@@ -25,6 +26,7 @@ function HomePage() {
       <Testimonials />
       <FindUsSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }
