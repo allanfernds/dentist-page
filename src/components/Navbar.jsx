@@ -1,22 +1,43 @@
 /* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
-import Logo from "../assets/images/logo.png";
+import { useState, useEffect } from "react";
+import logo from "../assets/images/logo.png";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
+  const [showNavBar, hideNavBar] = useState(false);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+
+  useEffect(() => {
+    function handleScroll() {
+      const st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+        hideNavBar(false);
+      } else {
+        hideNavBar(true);
+      }
+      setLastScrollTop(st <= 0 ? 0 : st);
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollTop]);
 
   return (
-    <nav id="header" className="w-full bg-slate-50 text-gray-800 top-0 left-0 ">
+    <nav
+      id="header"
+      className={`w-full bg-white text-slate-50 fixed z-40 top-0 left-0 transition duration-500 ${
+        showNavBar ? "-translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#hero">
-              <img src={Logo} alt="med odonto logo" width="190px" />
+              <img src={logo} alt="clinica med odontologia" className="w-40" />
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-gray-700 rounded-md outline-none "
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -59,19 +80,16 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#about">Home</a>
+              <li className="text-gray-500 hover:text-custom-blue">
+                <a href="#about">Sobre nós</a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#formation">Formação</a>
+              <li className="text-gray-500 hover:text-custom-blue">
+                <a href="#services">Serviços</a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#skills">Skills</a>
+              <li className="text-gray-500 hover:text-custom-blue">
+                <a href="#covenants">Convênios</a>
               </li>
-              <li className="text-gray-500 hover:text-blue-600">
-                <a href="#projects">Portifólio</a>
-              </li>
-              <li className="text-gray-500 hover:text-blue-600">
+              <li className="text-gray-500 hover:text-custom-blue">
                 <a href="#contact">Contato</a>
               </li>
             </ul>
