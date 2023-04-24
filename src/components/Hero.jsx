@@ -25,14 +25,14 @@ function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a
-              href="#"
+              href="#about"
               className="block w-full rounded bg-[#6BBFC5] px-12 py-3 text-sm font-medium text-white shadow hover:bg-[#57a6ac] focus:outline-none focus:ring active:bg-[#6BBFC5] sm:w-auto"
             >
               Saiba mais
             </a>
 
             <a
-              href="#"
+              href="#contact"
               className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-[#6BBFC5] shadow hover:text-[#57a6ac] focus:outline-none focus:ring active:text-custom-blue sm:w-auto"
             >
               Contato
