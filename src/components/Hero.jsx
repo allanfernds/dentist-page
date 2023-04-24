@@ -13,7 +13,9 @@ function Hero() {
         <div className="max-w-xl text-center sm:text-left">
           <h1 className="text-3xl text-gray-700 font-semibold sm:text-5xl">
             BEM-VINDO À
-            <strong className="block text-[#6BBFC5]">MED ODONTO.</strong>
+            <strong className="font-Montserrat font-semibold block text-[#6BBFC5]">
+              MED ODONTO.
+            </strong>
           </h1>
 
           <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
