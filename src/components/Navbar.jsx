@@ -5,7 +5,7 @@ import logo from "../assets/images/logo.png";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
-  const [showNavBar, hideNavBar] = useState(false);
+  const [showNavBar, hideNavBar] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
   useEffect(() => {
