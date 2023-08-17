@@ -5,7 +5,10 @@ function Footer() {
     <footer className="flex-col items-center justify-center mt-12 bg-custom-blue text-center text-white ">
       <div className=" flex justify-center items-center pt-9 px-24">
         <div className="mb-9 gap-16 flex justify-center items-center">
-          <a href="#!" className=" text-white">
+          <a
+            href="https://www.facebook.com/medodontofeira/?locale=pt_BR"
+            className=" text-white"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
