@@ -1,9 +1,10 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
+import atendentImage from '../assets/images/atendente.jpg';
 
 function ContactSection() {
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState('');
+  const [message, setMessage] = useState('');
 
   return (
     <div className="flex flex-wrap w-full">
@@ -38,7 +39,7 @@ function ContactSection() {
             <a
               target="_blank"
               href={`https://api.whatsapp.com/send?phone=5555754141920&text=${
-                "Olá! Me chamo " + name + "." + " " + "\n" + message
+                'Olá! Me chamo ' + name + '.' + ' ' + '\n' + message
               }`}
             >
               <button
@@ -54,7 +55,7 @@ function ContactSection() {
       <div className="w-1/2 shadow-2xl">
         <img
           className="hidden object-cover w-full h-screen md:block"
-          src="https://img.freepik.com/fotos-gratis/retrato-de-mulher-trabalhadora-de-atendimento-ao-cliente_144627-37940.jpg?w=740&t=st=1681517356~exp=1681517956~hmac=0be6ba8ff642ffe1e9a0d3578352373b25e4b4dd43d2b4f2d7343558d1c1592a"
+          src={atendentImage}
         />
       </div>
     </div>
