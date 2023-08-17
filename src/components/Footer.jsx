@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function Footer() {
   return (
-    <footer className="mt-12 bg-custom-blue text-center text-white ">
-      <div className="container pt-9 px-24">
-        <div className="mb-9 flex justify-around items-center">
-          <a href="#!" className="mx-3 text-white">
+    <footer className="flex-col items-center justify-center mt-12 bg-custom-blue text-center text-white ">
+      <div className=" flex justify-center items-center pt-9 px-24">
+        <div className="mb-9 gap-16 flex justify-center items-center">
+          <a href="#!" className=" text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -17,11 +17,11 @@ function Footer() {
           </a>
           <a
             href="https://www.instagram.com/clinicamedodontofeira/"
-            className="mx-3 text-white"
+            className=" text-white"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -30,10 +30,10 @@ function Footer() {
           </a>
           <a
             href="api.whatsapp.com/send?phone=557541419208"
-            className="mx-3 text-white"
+            className=" text-white"
           >
             <svg
-              className="h-4 w-4"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,9 +46,9 @@ function Footer() {
               />
             </svg>
           </a>
-          <a href="tel:557541419208" className="mx-3 text-white">
+          <a href="tel:557541419208" className=" text-white">
             <svg
-              className="h-4 w-4"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 100 100"
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ function Footer() {
       <div className="bg-gray-200 p-2 text-center text-gray-600 ">
         © 2023 Copyright:
         <a className="text-gray-500" href="https://alan-fernandes.vercel.app/">
-          {"  Alan Fernandes"}
+          {'  Alan Fernandes'}
         </a>
       </div>
     </footer>
